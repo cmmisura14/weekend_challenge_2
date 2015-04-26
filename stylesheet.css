@@ -1,0 +1,57 @@
+
+.header {
+	font-size: 2em;
+	margin-bottom: 0.5%;
+}
+
+.numTeams {
+	margin-top: 0.5%;
+	width: 100px;
+	height: 50px;
+	background-color: #ADD6AD;
+	border-radius: 15px;
+	display: inline-block;
+	float: left;
+}
+
+.numTeams:hover {
+	background-color: #47D147;
+}
+
+.numTeams:visited {
+	background-color: red;
+}
+
+.displayTeams {
+	margin-top: 2%;
+	margin-right: 60%;
+	width: 150px;
+	height: 75px;
+	background-color: #AD855C;
+	border-radius: 15px;
+}
+
+.displayTeams:hover {
+	background-color: #D68533;
+}
+
+.table {
+	display: inline-flex;
+	margin-left: 15%;
+	margin-right: 10%;
+	margin-top: 2%;
+	padding: 3px 3px 3px 3px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: #D6E0EB;
+	float: right;
+
+}
+
+.team {
+	text-align: center;
+}
+
+body {
+	background-color: #DDCCCC;
+}
