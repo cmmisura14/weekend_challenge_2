@@ -30,6 +30,8 @@ function shuffleArray(array) {
 }
 
 function createTeams(buttonValue){
+	var students = ["Erik", "Aaron", "Alicia", "Casie", "Clare", "Cody", "Jeanne", "Kaitlin", "Kelly", "Luke", "Mary", "Michael", "Michelle", "Rom", "Steve", "Terry", "Tracy", "Vince", "Brian", "Chelsea"];
+
 	randomOrder = shuffleArray(students);
 	for (j = 0; j < teamSize[buttonValue].length; j++) {
         team = [];
@@ -77,8 +79,11 @@ $(document).ready(function(){
 				}, 3000);
 			}
 		} else {
+			fullTeam = [];
+			$(".table").children().remove();
 			$(".table").empty();
-			$(".team").remove();
+			// action--;
+		
 			createTeams(buttonValue);
 				for(i = 0; i < fullTeam.length; i++){
 					teamNum = i + 1;
